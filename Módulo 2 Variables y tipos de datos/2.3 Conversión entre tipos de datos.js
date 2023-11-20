@@ -7,13 +7,10 @@
  */
 
 /**
+ * @ejemplo
  * @conversionImplicita
  * Cadena a número.
  * Nota: El resultado es una cadena "510" (concatenación), no una suma.
- */
-
-/**
- * @ejemplo
  */
 
 var num1 = "5";
@@ -21,26 +18,19 @@ var num2 = 10;
 var resultado = num1 + num2; 
 
 /**
+ * @ejemplo
  * @conversion 
  * Número a cadena.
  * Nota: Concatenación convierte número en cadena,
  */
 
-/**
- * @ejemplo
- */
-
  var num3 = 5;
 var str = "El número es: " + num3; 
 
-
 /**
- * @conversion 
+ *@ejemplo
+ *@conversion 
  * Nota: Se ejecuta porque "Hola" es verdadero en contecto booleano.
- */
-
-/**
- * @ejemplo
  */
 
 var valor = "Hola";

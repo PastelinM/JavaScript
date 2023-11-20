@@ -7,7 +7,7 @@
 /**
  * @if
  * Ejecuta un bloque de código si se cumple una condición.
- * 
+ * @ejemplo
  */
 
 const calificacion = 85;

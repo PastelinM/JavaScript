@@ -6,6 +6,7 @@
 /**
  * @while
  * Ejecuta un bloque de código mientras una condición sea verdadera.
+ * @ejemplo
  */
 
 contador = 0;
@@ -24,6 +25,7 @@ let numero = 7;
 /**
  * @for
  * Utilizado para recorrer  propiedades  de un objeto
+ * @ejemplo
  */
 
 const frutas = ["Manzana", "Banana","naranja","uva"];

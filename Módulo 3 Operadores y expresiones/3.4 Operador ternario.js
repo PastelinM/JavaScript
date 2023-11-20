@@ -1,6 +1,7 @@
 /**
  * @operadorTernario
  * Permite tomar desiciones basadas en una expresión booleana (Verdadera o Falsa).
+ * @ejemplo
  */
 
 const edad = 40;

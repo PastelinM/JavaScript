@@ -2,9 +2,7 @@
  * @var
  * Tienen un alcance de función, lo que significa que están disponibles en la 
  * función en la que se declaran.
- */
-
-/**
+ * 
  * @ejemplo
  */
 
@@ -21,9 +19,6 @@ function ejemplo() {
 /**
  * @let
  * Esto significa que son visibles solo dentro del bloque en la que se declaran.
- */
-
-/**
  * @ejemplo
  */
 
@@ -41,9 +36,6 @@ function ejemplo() {
  * @const
  * Deben asignarse un valor al declararlas y no pueden reasignarse.
  * Nota: Esto generará un error, ya que no se puede reasignar una variable.constante.
- */
-
-/**
  * @ejemplo
  */
 

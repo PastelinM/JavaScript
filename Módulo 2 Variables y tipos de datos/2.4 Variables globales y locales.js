@@ -5,10 +5,6 @@
 /**
  * @variablesGlobales
  * Son declaradas fuera de cualquier función o bloque de código.
- */
-
-
-/**
  * @ejemplo
  */
 
@@ -23,11 +19,9 @@ saludar();
 /**
  * @variablesLocales
  *Son declaradas dentro de una funcion o un bloque de código especifico.
- *Las variables locales son útiles para encapsular datos y evitar colisiones de nombres en programas más grandes.
- */
-
-/**
- * @ejemplo
+ *Las variables locales son útiles para encapsular datos y evitar colisiones de
+ nombres en programas más grandes.
+ *@ejemplo
  */
 
 function sumar (a, b){

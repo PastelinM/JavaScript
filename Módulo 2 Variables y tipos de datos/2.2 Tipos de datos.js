@@ -1,6 +1,8 @@
 /**
  * @cadenaTexto
- * Cadena de texto son secuencias de caracteres, como letras, números, simbolos y espacios.
+ * Cadena de texto son secuencias de caracteres, como letras, números, simbolos y 
+ * espacios.
+ * @ejemplo
  */
 
 /**
@@ -12,19 +14,15 @@ let nombre = "Mauricio";
 /**
  * @comillasSimples
  */
+
 let apellido = 'Pastelin'; 
 
 /**
  * @templateString
  */
+
 let lorem = `Lorem ipsum dolor sit amet, consectetur adipisicing elit`; 
-
-
- /**
-  * @ejercicio
-  */
- const frase = "Hola Mundo, ¿Cómo estás?";
-
+const frase = "Hola Mundo, ¿Cómo estás?";
  console.log(frase.length); // Longitud de cadena
  console.log(frase.toUpperCase());  //Convertir a mayúsculas
  console.log(frase.toLocaleLowerCase()); // Convertir minúsculas
@@ -37,8 +35,8 @@ let lorem = `Lorem ipsum dolor sit amet, consectetur adipisicing elit`;
  * @number
  * Number se refiere a los valores númericos, es decir, los números utilizados 
  * para representar cantidades y realizar operaciones matemáticas.
+ * @ejemplo
 */
-
 
 let abc = 15;
 let cba = new Number(1);
@@ -56,11 +54,13 @@ console.log(abc + parseFloat(fed));
 
 /**
  * @booleans
- *  Los valores booleanos representan dos estados posibles: verdadero (true) o falso (false).
+ *  Los valores booleanos representan dos estados posibles: verdadero (true) o 
+ * falso (false).
+ *@ejemplo
  */
+
 let verdadero = true;
 let falso = false;
-
 let v = Boolean(true);
 let f = Boolean(false);
 
@@ -71,6 +71,7 @@ console.log(typeof verdadero, typeof falso);
 /**
  * @templeteString
  * Son una forma conveniente de crear cadenas dinamicas y legibles en js.
+ * @ejemplo
  */
 
 const parrafo = `
@@ -81,10 +82,11 @@ pueden abarcar múltiples líneas
 
 console.log(parrafo);
 
-
 /**
  * @concatenarCadenaTexto
+ * @ejemplo
  */
+
 let nombre2 = "Juan";
 let apellido2 = "Mendoza";
 let saludo = "Hola mi nombre es " + nombre2 + " " + apellido2;
@@ -96,8 +98,8 @@ console.log(saludo);
  * de texto o un contexto especifico para crear una cadena completa que  conviene
  * tanto texto estático como valores dinámicos.
  * Nota: Interpolar == Poner algo entre otras cosas
+ * @ejemplo
  */
-
 
 let saludo2 = `Hola mi nombre es ${nombre} ${apellido}`;
 console.log(saludo2);
@@ -110,11 +112,10 @@ let ul = `<ul>
 
 console.log(ul);
 
-
-
 /**
  * @undefinedNullNan
  * Indica que no se ha inicializado una variable y que el valor esta ausente.
+ * @ejemplo
  */
 
 let indefinida;
@@ -122,7 +123,8 @@ console.log(indefinida);
 
 /**
  * @null
- * Es un valor especial que indica la ausencia de un valor o objeto
+ * Es un valor especial que indica la ausencia de un valor o objeto.
+ * @ejemplo
  */
 
  let nulo = null;
@@ -133,9 +135,6 @@ console.log(null);
  * Not a Number 
  * Es un valor que se obtiene cuando intentas realizar operaciones mantematicas
  * invalidas, como dividir por cero o realizar operaciones con tipos incompatibles.
- */
-
-/**
  * @ejemplo
  */
 

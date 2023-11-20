@@ -1,6 +1,7 @@
 /**
  * @switch
  * Permite seleccionar entre múltiples casos según el valor de una expresión.
+ * @ejemplo
  */
 
 const diaSemana = "Sabado";

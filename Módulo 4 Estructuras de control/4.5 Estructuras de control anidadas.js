@@ -1,10 +1,8 @@
 /**
  * @estructuralControlAnidada
- *Una estructura de control anidada en la programación se refiere a la inclusión de una o más estructuras de control dentro de otra.
- */
-
-/**
- * @ejemplo
+ *Una estructura de control anidada en la programación se refiere a la inclusión
+ *de una o más estructuras de control dentro de otra.
+ *@ejemplo
  */
 
 if (condicion1) {

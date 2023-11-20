@@ -131,7 +131,12 @@ console.log(null);
 /**
  * @nan 
  * Not a Number 
- * Es un valor que se obtiene cuando intentas realizar operaciones mantematicas invalidas, como dividir por cero o realizar operaciones con tipos incompatibles
+ * Es un valor que se obtiene cuando intentas realizar operaciones mantematicas
+ * invalidas, como dividir por cero o realizar operaciones con tipos incompatibles.
+ */
+
+/**
+ * @ejemplo
  */
 
  let noEsUnNumero = "Hola" * 3.1416;

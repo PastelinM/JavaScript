@@ -4,6 +4,10 @@
  * función en la que se declaran.
  */
 
+/**
+ * @ejemplo
+ */
+
 function ejemplo() {
     var x = 10;
     if (true) {
@@ -19,6 +23,9 @@ function ejemplo() {
  * Esto significa que son visibles solo dentro del bloque en la que se declaran.
  */
 
+/**
+ * @ejemplo
+ */
 
 function ejemplo() {
     let x = 10;
@@ -34,6 +41,10 @@ function ejemplo() {
  * @const
  * Deben asignarse un valor al declararlas y no pueden reasignarse.
  * Nota: Esto generará un error, ya que no se puede reasignar una variable.constante.
+ */
+
+/**
+ * @ejemplo
  */
 
 const pi = 3.14159;

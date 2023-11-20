@@ -12,6 +12,10 @@
  * Nota: El resultado es una cadena "510" (concatenación), no una suma.
  */
 
+/**
+ * @ejemplo
+ */
+
 var num1 = "5";
 var num2 = 10;
 var resultado = num1 + num2; 
@@ -21,6 +25,11 @@ var resultado = num1 + num2;
  * Número a cadena.
  * Nota: Concatenación convierte número en cadena,
  */
+
+/**
+ * @ejemplo
+ */
+
  var num3 = 5;
 var str = "El número es: " + num3; 
 
@@ -29,7 +38,11 @@ var str = "El número es: " + num3;
  * @conversion 
  * Nota: Se ejecuta porque "Hola" es verdadero en contecto booleano.
  */
- 
+
+/**
+ * @ejemplo
+ */
+
 var valor = "Hola";
 if (valor) {
   console.log("El valor es verdadero.");  
@@ -42,16 +55,17 @@ if (valor) {
  */
 
 /**
- * @conversion
+ * @ejemplo
  * Cadena a número.
  * Nota:  Convierte la cadena en un número entero.
  */
+
  var strNumero = "42";
 var numero = parseInt(strNumero);  
 console.log(numero);  
 
 /**
- * @conversion
+ * @ejemplo
  * Número a cadena
  * Convierte el número en una cadena de texto.
  */
@@ -61,7 +75,7 @@ var strNum = num.toString();
 console.log(strNum);  
 
 /**
- * @conversion
+ * @ejemplo
  * Entero a booleano
  * Convierte el número en booleano.
  */

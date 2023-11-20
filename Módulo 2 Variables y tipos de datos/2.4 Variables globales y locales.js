@@ -2,14 +2,17 @@
  * @variables
  */
 
-
 /**
  * @variablesGlobales
  * Son declaradas fuera de cualquier función o bloque de código.
  */
 
-const nombre = "Juan";
 
+/**
+ * @ejemplo
+ */
+
+const nombre = "Juan";
 function saludar (){
 console.log(`Hola Mundo ${nombre}`);
 };
@@ -23,6 +26,9 @@ saludar();
  *Las variables locales son útiles para encapsular datos y evitar colisiones de nombres en programas más grandes.
  */
 
+/**
+ * @ejemplo
+ */
 
 function sumar (a, b){
     var resultado = a + b;
@@ -30,5 +36,3 @@ function sumar (a, b){
 }
 
 console.log(sumar(10, 11)); 
-
-

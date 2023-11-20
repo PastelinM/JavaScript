@@ -1,13 +1,15 @@
 /**
  * @function
- * Una funcion es un bloque de codigo, auto contenido que se se puede definir una vez y ejecutar en cualquier momento, opcionalmente una funcion puede aceptar parametros y devolver un valor.
+ * Una funcion es un bloque de codigo, auto contenido que se se puede definir una 
+ * vez y ejecutar en cualquier momento, opcionalmente una funcion puede aceptar 
+ * parametros y devolver un valor.
  * 
  */
 
 /**
  * @funcionDeclarativa 
  * (Puede invocarse en cualquier parte de nuestro código, incluiso antes de que la función sea declarada).
- * 
+ * @ejemplo
  */
 
 function saludar(nombre){
@@ -26,7 +28,7 @@ obtenerParametros();
 /**
  * @funcionAnonima
  * (Son aquellas en las que declaras una función y la asignas a una variable.)
- * 
+ * @ejemplo
  */
  
 const funcionAnonima = function () {
@@ -46,16 +48,18 @@ suma(10,20);
 
 /**
  * @funcionFlecha 
- * (Son especialmente útiles para funciones simples y funciones de una sola expresión)
+ * (Son especialmente útiles para funciones simples y funciones de una sola expresión).
+ * @ejemplo
  */
 
 const multiplicar = (a, b) => a * b;
 
-
 /**
  * @funcionesCallBack 
- * (Se utilizan ampliamente para ejecutar código en respuesta a eventos o después de que se complete un operacion asincróna)
- */
+ * (Se utilizan ampliamente para ejecutar código en respuesta a eventos o después 
+ * de que se complete un operacion asincróna).
+ * @ejemplo
+*/
 
 
 function sumaCallBack(a, b, callback){
@@ -64,7 +68,8 @@ function sumaCallBack(a, b, callback){
 }
 
 /**
- * Funcion de callback para mostrar el resultado
+ * Funcion de callback para mostrar el resultado.
+ * @ejemplo
  */
 
 function mostrarResultado(resultado){
@@ -73,15 +78,17 @@ function mostrarResultado(resultado){
 
 /** 
  * llamar a la funcion de suma con el callback
+ * @ejemplo
  */
 
 sumaCallBack(5,3, mostrarResultado);
 
 
 /**
- * @ejercicio
-* Tenemos una matriz de solicitudes de empleo y queremos seleccionar sólo el primer solicitante que cumpla todos los criterios.
- 
+ *
+*Tenemos una matriz de solicitudes de empleo y queremos seleccionar sólo el
+*primer solicitante que cumpla todos los criterios.
+ *@ejemplo
  */
 
 let candidatos = [

@@ -4,13 +4,15 @@
  */
 
 /**
- * Crear un arreglo de cadena de texto
+ * Crear un arreglo de cadena de texto.
+ * @ejemplo
  */
 let frutas = ["Manzana", "Uva", "Pera", "Sandia"];
 console.log(frutas.length);
 
 /**
- * Accerder a elementos del arreglo por indice
+ * Accerder a elementos del arreglo por indice.
+ * @ejemplo
  */
 
 let primero = frutas[0];
@@ -20,7 +22,8 @@ console.log(primero);
 console.log(ultimo);
 
 /**
- * Añadir un elemento al final de un arreglo
+ * Añadir un elemento al final de un arreglo.
+ * @ejemplo
  */
 
 let nuevaLongitud = frutas.push("Naranja");
@@ -28,28 +31,31 @@ console.log(frutas);
 
 /**
  * Eliminar el primer elemento de un arreglo del inicio
+ * @ejemplo
  */
 let eliminar = frutas.shift();
 console.log(frutas);
 
- /*
+/**
  * Obtener la longitud de un arreglo
- */ 
+ * @ejemplo
+ */
 const longitud = frutas.length;
 console.log("Longitud: ",longitud)
 
-
-/*
-* Recorrer un arreglo usando un bucle for
-*/ 
+/**
+ * Recorrer un arreglo usando un bucle for
+ * @ejemplo
+ */
 
 for(const fruta of frutas){
   console.log(fruta);
 }
 
-/*
-*Recorrer un arreglo usando un bucle forEach
-*/ 
+/**
+ * Recorrer un arreglo usando un bucle forEach
+ * @ejemplo
+ */
  
 frutas.forEach(function (elemento, indice, array) {
   console.log(indice, elemento);
@@ -57,6 +63,7 @@ frutas.forEach(function (elemento, indice, array) {
 
 /**
  * Encontrar el indice de un elemento en el arreglo
+ * @ejemplo
  */
 
 let indice = frutas.indexOf("Pera");
@@ -64,8 +71,10 @@ console.log("Indice de Pera ",indice);
 
 
 /** 
- * @ejercicio
-* Tenemos un arreglo de citas y queremos seleccionar sólo el nombre que tenga mayor disponibilidad
+ *
+*Tenemos un arreglo de citas y queremos seleccionar sólo el nombre que tenga
+*mayor disponibilidad.
+*@ejemplo
  */
 
 let citas = [
@@ -95,15 +104,16 @@ let citas = [
 ];
 
 /**
-* @ejercicio Propuesto
-*/
+ * @ejercicio Propuesto
+ */
 
 let ejercicio = citas.filter((cita)=>cita.disponibilidad >= 5);
 console.log(ejercicio);
 
 
 /**
-* Buscar el nombre de S
-*/
+ * @ejercicio
+ * Buscar el nombre de S
+ */
 let nombres = citas.filter((mujer) => mujer.nombre == "S");
 console.log(nombres);

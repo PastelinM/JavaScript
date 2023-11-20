@@ -1,7 +1,10 @@
- /**
-  * @objeto
-  * Es una estructura de datos que puede contener propiedades y métodos. Las propiedades sin variables que almacen valores, y los métodos son funciones que realizan acciones.
-  */
+/**
+ * @objeto
+ * Es una estructura de datos que puede contener propiedades y métodos. Las 
+ * propiedades sin variables que almacen valores, y los métodos son funciones que 
+ * realizan acciones.
+ * @ejemplo
+ */
 
  const persona = {
   
@@ -15,17 +18,9 @@
 
 
     /**
-     * Acceso a la propiedad y llamada a métodos del objeto
+     * Acceso a la propiedad y llamada a métodos del objeto.
+     * @ejemplo
      */
     console.log(persona.firstname); 
     console.log(persona.edad);
     persona.saludar();
-
-
-
-
-
-
-
-
- 

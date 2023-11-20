@@ -1,8 +1,7 @@
 /**
  * @var
  * Tienen un alcance de función, lo que significa que están disponibles en la 
- * función en la que se declaran.
- * 
+ * función en la que se declaran. * 
  * @ejemplo
  */
 

@@ -71,3 +71,13 @@ Este temario proporciona una estructura básica para aprender los fundamentos de
 - 10.1. Desarrollo de un proyecto pequeño utilizando los conceptos aprendidos.
 - 10.2. Aplicación de buenas prácticas de programación.
 - 10.3. Pruebas y depuración del proyecto.
+
+## Recursos Adicionales
+
+- [Documentación Oficial de JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
+
+## Contribuciones
+
+Si deseas contribuir a este temario, por favor abre un **issue** o envía un **pull request**. ¡Toda ayuda es bienvenida!
+
+---
